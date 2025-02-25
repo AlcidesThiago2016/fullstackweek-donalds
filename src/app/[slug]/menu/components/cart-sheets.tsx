@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import { formatCurrency } from "@/helpers/format-currency";
@@ -32,7 +31,6 @@ const CartSheet = () => {
                             </div>
                         </CardContent>
                     </Card>
-                    <Button type="submit" variant="destructive" className="rounded-full" onClick={() => setFinishOrderDialogIsOpen(true)}>Finalizar</Button>
                     <FinishOrderDialog 
                         open={finishOrderDialogIsOpen}
                         onOpenChange={setFinishOrderDialogIsOpen}
