@@ -39,7 +39,7 @@ const CpfForm = () => {
     const router = useRouter();
     const pathName = usePathname();
     const onSubmit = (data: FormSchema) => {
-        router.push(`${pathName}?cpf=${removeCpfPunctuantuon(data.cpf)}`);
+        router.replace(`${pathName}?cpf=${removeCpfPunctuantuon(data.cpf)}`);
     };
     const handleCancel = () => {
         router.back();
