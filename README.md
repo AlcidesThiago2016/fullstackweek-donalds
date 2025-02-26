@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 FSW Donalds
 
-## Getting Started
+Bem-vindo ao FSW Donalds, um projeto full stack desenvolvido durante o Full Stack Week! 🚀
 
-First, run the development server:
+## 📝 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O FSW Donalds é uma aplicação web inspirada em sistemas de fast food, permitindo a navegação de produtos, gerenciamento de pedidos e integração com pagamentos. O projeto utiliza as mais modernas tecnologias para oferecer uma experiência fluida e responsiva.
+
+## 🔧 Tecnologias Utilizadas
+
+## 📌 Front-end:
+
+React.js ⚛️ - Framework para criação de interfaces dinâmicas.
+
+Next.js 🚀 - Para renderização otimizada e melhor SEO.
+
+Tailwind CSS 🎨 - Estilização moderna e responsiva.
+
+## 📌 Back-end:
+
+Node.js 🟢 - Ambiente de execução do JavaScript no servidor.
+
+Express.js ⚡ - Framework para criação da API.
+
+MongoDB 🍃 - Banco de dados NoSQL flexível e escalável.
+
+## 📌 Outras Tecnologias:
+
+Prisma ORM - Gerenciamento e integração do banco de dados.
+
+Stripe 💳 - Para processamento de pagamentos.
+
+JWT (JSON Web Token) 🔐 - Autenticação segura de usuários.
+
+## 🚀 Funcionalidades
+
+✅ Catálogo de produtos dinâmico
+✅ Autenticação de usuários (registro/login)
+✅ Carrinho de compras interativo
+✅ Processamento de pedidos
+✅ Integração com gateway de pagamento (Stripe)
+✅ Interface responsiva e intuitiva
+
+## 📦 Como Rodar o Projeto
+
+🔽 Clone o repositório:
+
+ git clone https://github.com/AlcidesThiago2016/fullstackweek-donalds.git
+
+🔽 Instale as dependências:
+
+```
+ cd fullstackweek-donalds
+ npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔽 Configuração do ambiente:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Crie um arquivo .env com as credenciais necessárias (exemplo no .env.example).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔽 Rodando o back-end:
 
-## Learn More
+```
+ npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+🔽 Rodando o front-end:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+ npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Acesse no navegador: http://localhost:3000
 
-## Deploy on Vercel
+## 🛠 Melhorias Futuras
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📌 Implementação de histórico de pedidos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📌 Sistema de cupons de desconto
+
+📌 Integração com notificações em tempo real
+
+## 📜 Licença
+
+Este projeto está licenciado sob a MIT License.
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para abrir issues e pull requests para contribuir com melhorias! 😊
+
+💡 Desenvolvido por @AlcidesThiago2016 no Full Stack Week.
+
+
